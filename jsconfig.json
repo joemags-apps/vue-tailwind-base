@@ -1,0 +1,13 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@comp/*": ["./src/components/*"], //For autocomplete
+      "@view/*": ["./src/views/*"],
+      "~/*": ["./src/*"],
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"]
+}
