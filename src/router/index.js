@@ -1,11 +1,13 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import NotFound from "@view/not-found/NotFound";
+import HomePage from "@view/home-page/HomePage";
+
 
 const routes = [
     {
         path: '/',
-        component: () => require('@view/home-page/HomePage')
+        component: HomePage
     },
     {
         path: '/:pathMatch(.*)',
